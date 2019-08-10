@@ -197,15 +197,9 @@ ggplot(sentiment3, aes(x = log(words),
   xlab("Words") +
   ylab("Sentiment Level")
 
-#### For all the 4 books package data, we could see from the above graphic that:
-#### 1) People would like to express their feelings(count number is high), when their feelings about the book is strong positive(high sentiment level), e.g. the count of high sentiment level review is more than average in the 5-star-rating levels, which is quite positive.  
-
-#### 2) People prefer less words to express strong positive(high sentiment level) feelings. The angle of the line is quite significate. people use common length words to express negative reviews(1-star-rating level).
 
 
-#### Q2.Please construct a graphic/visualization which communicates some aspect of the data which you found interesting or helpful as it relates to the rating and sentiment. You can create more than one graphic, but it’s better to have one strong graphic than many weak ones. 
-
-#### we could introduce more larger data set when we come to Q2
+#### 2. we could introduce more larger data set when we come to Q2
 #### introduce the review number, calculate the mean of star rating
 
 b1<- Amazon %>% 
