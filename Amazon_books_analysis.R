@@ -206,7 +206,7 @@ b1<- Amazon %>%
   select_all() %>% 
   group_by(product_title) %>% 
   summarise(review_number=n(), meanstar=mean(star_rating)) %>% 
-  \arrange(desc(review_number)) 
+  arrange(desc(review_number)) 
 
 
 #### calculate the sentiment level (at least 2 words)
