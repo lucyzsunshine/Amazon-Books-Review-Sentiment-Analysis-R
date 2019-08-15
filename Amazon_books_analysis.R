@@ -414,6 +414,6 @@ ggplot(s_i20_feelings, aes(x = review_year,
 #### produce some pseudocode based on your ideas
 #### for further explore, based on the current model and variables, what i need most is the sold number of each top and lower rated books. So the sum could do the "lm" model or other model check to see if any of the variable mentioned above has a significate correlation with the number of books sold, so we could make some strategetic suggestion or smart tip for either amazon marketing team or individual writers.
 
-#### Thanks!
+
 
 
